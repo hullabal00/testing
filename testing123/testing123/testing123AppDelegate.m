@@ -21,6 +21,7 @@
 {
     // Override point for customization after application launch.
     NSLog(@"here"); 
+    NSLog(@"here2");
     
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
